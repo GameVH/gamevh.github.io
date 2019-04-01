@@ -1,408 +1,120 @@
-
-
-
-<!DOCTYPE html>
-<html>
-	<head>
+<html><head>
 		<link rel="shortcut icon" href="/favicon.ico">
-		<base target="_self" />
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<base target="_self">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<link rel="apple-touch-icon" href="//cdn.gamevh.net/images/logo196.png">
-		<link rel="apple-touch-startup-image" href="//cdn.gamevh.net/images/splash_iphone.png" />
-		<meta name="mobile-web-app-capable" content="yes" />
-		<link rel="icon" sizes="196x196" href="//cdn.gamevh.net/images/logo196.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-		<meta name="keywords" content="đánh chắn, chắn cạ, game bài, tiến lên, tá lả, caro, cờ tướng, xiangqi, cờ úp, cờ vua, chơi cờ" />
-		<meta name="description" content="gamevh.net - cờ tướng, cờ úp, cờ vua, chắn, tiến lên, sâm, phỏm, mậu binh, ... online" />
-		<meta name="copyright" content="gamevh.net"/>
-		<meta name="author" content="gamevh.net" />
-		<meta property="og:image" content="http://cdn.gamevh.net/images/banner480x240.png" />
-		<meta property="fb:app_id" content="318703868599310" />
-		<title>[B&#7893; sung - c&#7853;p nh&#7853;t] Quy &#273;&#7883;nh v&#7873; vi&#7879;c tham gia GameVH.net</title>
-		<script type="text/javascript">
-			contextPath = '';
-			actionPath = '/domain/vh/module/article_detail';
-			function fs_addLoadEvent(func)
-			{
-				if(window.fs_loaded == true)
-				{
-					setTimeout(func,0);
-					return;
-				}
-				var l = window.onload;
-				if (typeof window.onload != 'function') window.onload = func;
-				else window.onload = function() { if (l) l();func(); }
-			}
-		</script>
-		
-		<script type="text/javascript" src="//cdn.gamevh.net/js/jquery,livevalidation,uihelper,datehelper,tabview,form_stuff,chosen.jquery.min,moment.min,daterangepicker,jquery.tokeninput,externallist,jquery.bxslider.min,decimal_format,jquery.sidr.min,jquery.msgBox,jquery.dropdown.min,emotify.min,page_stuff.js?v5"></script>
+		<link rel="apple-touch-startup-image" href="//cdn.gamevh.net/images/splash_iphone.png">
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="196x196" href="//cdn.gamevh.net/images/logo196.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="keywords" content="đánh chắn, chắn cạ, game bài, tiến lên, tá lả, caro, cờ tướng, xiangqi, cờ úp, cờ vua, chơi cờ">
+		<meta name="description" content="gamevh.net - cờ tướng, cờ úp, cờ vua, chắn, tiến lên, sâm, phỏm, mậu binh, ... online">
+		<meta name="copyright" content="gamevh.net">
+		<meta name="author" content="gamevh.net">
+		<meta property="og:image" content="http://cdn.gamevh.net/images/banner480x240.png">
+		<meta property="fb:app_id" content="318703868599310">
+		<title>[Bổ sung - cập nhật] Quy định về việc tham gia GameVH.net</title>
 		
 
 
-<link rel="stylesheet" type="text/css" href='//cdn.gamevh.net/domain/vh/skin/css/main_l,gamevh.css?v21'/>
-		
-	</head>
+<link rel="stylesheet" type="text/css" href="//cdn.gamevh.net/domain/vh/skin/css/main_l,gamevh.css?v21">
 	<body>
-		<script type="text/javascript">
-			fs_addLoadEvent(function(){
-				// Prevent iPhone in app app to open safari
-				if(("standalone" in window.navigator) && window.navigator.standalone)
-				{
-					$(document).on("click","a",function(event)
-					{
-						var target = event.target;
-						if(target != null && target.tagName != 'a' && target.tagName != 'A')
-							target = target.parentNode;
-						if(target != null && target.tagName != 'a' && target.tagName != 'A')
-							target = target.parentNode;
-						if(target != null && target.tagName != 'a' && target.tagName != 'A')
-							target = target.parentNode;
-						var href = $(target).attr("href");
-						if(href != null && href != '')
-						{
-							event.preventDefault();
-							location.href = href;
-						}
-					});
-				}
+		
 
-				if(navigator.userAgent.toLowerCase().indexOf("android") >= 0)
-					window.scrollTo(0, 0);
-				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-				ga('create', 'UA-21477387-2', 'auto');
-				ga('send', 'pageview');
-			});
-			window.handleGlobalKeyUp = function(keyCode)
-			{
-				var PENDING = 0;
-				var COMPLETED = 1;
-				var BREAK = 9;
-				if(keyCode == 4)
-				{
-					var path = location.pathname.substring(contextPath.length);
-					var qIndex = path.indexOf('?');
-					if(qIndex >= 0) path = path.substring(0,qIndex);
-					if(path == '/' || path == '/index.jsp')
-						return BREAK;
-					location.href = contextPath + "/index.jsp";
-					return COMPLETED;
-				}
-				return PENDING;
-			};
-		</script>
-
-		<div id="messageBox" style="display:none">
-			<div id="messageContainer">
-				<a href="javascript:void(0)" class="glyph" id='closeMessageButton' alt='Hide'>&#xf00d;</a>
-			</div>
-		</div>
+		
 
 
-<link rel="stylesheet" type="text/css" href="//cdn.gamevh.net/domain/vh/layout/index_l.css" />
+<link rel="stylesheet" type="text/css" href="//cdn.gamevh.net/domain/vh/layout/index_l.css">
 
-	<div id="header_wrap">
-		<div id="header">
-<div id="pos_header" class="position">
-
-<div class="module" >	<div class="module_content" id="module_pos_header_208">
-
-
-
-<div id="nav">
-	<ul>
-
-		<li><a href="/shape">
-			Cờ thế
-		</a></li>
-		<li><a href="/tour">
-			Giải đấu
-		</a></li>
-		<li><a href="/club">
-			Hội nhóm
-		</a></li>
-
-			<li><a href="/cat/13">Tin tức</a></li>
-
-			<li><a href="/cat/41">Bài viết</a></li>
-
-	</ul>
-</div>
-
-<a class="logo" href="/index.jsp"><img src="//cdn.gamevh.net/domain/vh/images/logo64.png"></a>
-<div class="support_info">
-	<div>
-		<a href="/news/831" style="color:yellow;font-weight:bold;padding:4px;font-size:14px;margin-top:-8px;">
-			Quy định về việc tham gia gamevh.net
-		</a>
-	</div>
-</div>
-<div style="position:absolute;right:1px;top:68px;">
-
-	<a href="/news/831?language=VN" style="display:inline-block;padding-top:2px;padding-bottom:1px;margin-left: 4px;">
-		<img style="border: 1px solid white;width:32px;" src="//cdn.gamevh.net/images/vn_flag.png" alt="" />
-	</a>
-
-	<a href="/news/831?language=EN" style="display:inline-block;padding-top:2px;padding-bottom:1px;margin-left: 4px;">
-		<img style="border: 1px solid white;width:32px;" src="//cdn.gamevh.net/images/en_flag.png" alt="" />
-	</a>
-
-</div>
-
-	</div>
-</div>
-<div class="module" >	<div class="module_content" id="module_pos_header_507">
-
-
-
-<style>
-	.side_banner > *
-	{
-		position:fixed;
-		top:98px;
-		z-index:99999999;
-	}
-	.side_banner > *:first-child
-	{
-		margin-right:482px;
-		right:50%;
-	}
-	.side_banner > *:last-child
-	{
-		margin-left:482px;
-		left:50%;
-	}
-</style>
-<div class="side_banner">
-
-</div>
-
-	</div>
-</div>
-</div>
-</div>
-	</div>
-<div id="body_container"><div id="body_wrap"><div style="margin-bottom:48px;"><div id="top_panel">
-<div id="pos_top_panel" class="position">
-
-<div class="module" >	<div class="module_content" id="module_pos_top_panel_187">
-
-
-
-<style>
-	#greeting .star-icon
-	{
-		width:16px;
-		margin-right:2px;
-		margin-bottom:-4px;
-	}
-	#greeting .item_list .item img,
-	.sidr-inner .item_list .item img
-	{
-		margin-right:2px;
-		margin-bottom:-4px;
-	}
-	label.img
-	{
-		margin-right:2px;
-		margin-bottom:-4px;
-		display:inline-block;
-		width:16px;
-		height:16px;
-		background-image:url('//cdn.gamevh.net/com/ftl/game/images/icon16.png');
-	}
-	#greeting #loginOption a
-	{
-		float:left;
-	}
-	#greeting #loginOption a label
-	{
-		cursor:pointer;
-	}
-</style>
-<div id="greeting">
-
-	<div class="main_info" style="text-align:center;font-weight:bold;font-size:12px;padding:6px 8px 0px 8px;margin:2px;line-height:13px;">
-		Xin chào quý khách,
-		<div id="loginOption" style="padding:4px 0px 3px 0px;width:100%;">
-			<a class="button" href="https://gamevh.net:443/login.jsp">
-				<label class="img" style="background-position:-352px 0px;"></label>
-				Đăng nhập
-			</a><a target="_top" href="javascript:loginBy('facebook')" title=""><label
-				class="icon32" style="background-position:-0px -0px;"
-			></label></a><a target="_top" href="javascript:loginBy('google')" title=""><label
-				class="icon32" style="background-position:-32px -0px;"
-			></label></a><!--<a target="_top" href="javascript:loginBy('yahoo')" title=""><label
-				class="icon32" style="background-position:-64px -0px;"
-			></label></a>--><a class="button" id="registerButton" href="https://gamevh.net:443/com/ftl/game/register_by_email.jsp">
-				<label class="img" style="background-position:-384px 0px;"></label>
-				Đăng ký
-			</a>
-		</div>
-	</div>
-	<div class="item_list">
-		<a class="item" href="https://gamevh.net:443/com/ftl/game/reset_password.jsp">
-			<label class="img" style="background-position:-400px 0px;"></label>
-			Quên mật khẩu
-		</a>
-		<a class="item" href="/com/ftl/game/pm/pm.jsp">
-			<label class="img" style="background-position:-288px 0px;"></label>
-			Tin nhắn
-		</a>
-		<a class="item" href="/com/ftl/game/account/charging.jsp">
-			<label class="img" style="background-position:-224px 0px;"></label>
-			Nạp xu
-		</a>
-		<a class="item" href="/com/ftl/game/account/transfer.jsp">
-			<label class="img" style="background-position:-416px 0px;"></label>
-			Chuyển xu
-		</a>
-		<a class="item" href="/com/ftl/game/profile/avatar.jsp">
-			<label class="img" style="background-position:-240px 0px;"></label>
-			Ảnh đại diện
-		</a>
-		<a class="item" href="/com/ftl/game/account/match_history.jsp">
-			<label class="img" style="background-position:-432px 0px;"></label>
-			Xem lại ván đấu
-		</a>
-		<a class="item" href="/com/ftl/game/account/account_history.jsp">
-			<label class="img" style="background-position:-336px 0px;"></label>
-			Lịch sử TK
-		</a>
-
-	</div>
-
-</div>
-<script>
-	function feedBack()
-	{
-		window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-		d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-		_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
-		$.src='//v2.zopim.com/?1kFKLWzzPGVHGeOV3adF3u2cqZ531VR4';z.t=+new Date;$.
-		type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
-
-		$zopim(function() {
-			$zopim.livechat.setName('Guest');
-			$zopim.livechat.setEmail('');
-			setTimeout(function()
-			{
-				$zopim.livechat.window.show();
-			},500);
-		});
-	}
-	function loginBy(loginType)
-	{
-		var url = "https://gamevh.net:443" + "/login.jsp?LOGIN_TYPE=" + loginType + "&AUTO_LOGIN=true";
-
-			location.href = url;
-
-	}
-</script>
-
-	</div>
-</div>
-</div>
-</div><div id="content_full">
+	
+<div id="body_container"><div id="body_wrap"><div style="margin-bottom:48px;"><div id="content_full">
 <div id="pos_content" class="position">
 
-<div class="module" >	<div class="module_content" id="module_pos_content_327">
 
-
-
-<ul id="homeSlide" class="bxslider">
-<li><a target="_top" href="https://gamevh.net/news/6895"><img src="https://i.imgur.com/BldN70E.png" /></a></li>
-</ul>
-
-
-	</div>
-</div>
 <div class="module">
 	<div class="module_content">
 		<div id="main_content">
-			<link rel="stylesheet" type="text/css" href="//cdn.gamevh.net/domain/vh/module/article_detail.css?v8" />
+			<link rel="stylesheet" type="text/css" href="//cdn.gamevh.net/domain/vh/module/article_detail.css?v8">
 <div id="article_detail">
 
-	<img class="avatar" src="/upload/user/anhnq/20140512/13998833223831545657_285564164940840_619261057043601025_n_(1).png"/>
+	
 	<p class="title">[Bổ sung - cập nhật] Quy định về việc tham gia GameVH.net</p>
 	<p class="created">10:05 17/05/2016</p>
-	<span class="content_detail"><p>GameVH.net là website thử nghi&ecirc;̣m h&ecirc;̣ th&ocirc;́ng trò chơi d&acirc;n gian mi&ecirc;̃n phí nhằm bảo t&ocirc;̀n và phát tri&ecirc;̉n những trò chơi d&acirc;n gian lành mạnh của Vi&ecirc;̣t Nam như Chắn, Cờ Tướng, Cờ Úp. Đ&ecirc;̉ đảm bảo website lu&ocirc;n hoạt đ&ocirc;̣ng lành mạnh. Ban quản trị (BQT) xin gửi đ&ecirc;́n các bạn những quy định khi tham gia s&acirc;n chơi gamevh.net. Khi bạn đăng ký tham gia, đã mặc nhi&ecirc;n ch&acirc;́p nh&acirc;̣n tu&acirc;n thủ những quy định này.</p>
+	<span class="content_detail"><p>GameVH.net là website thử nghiệm hệ thống trò chơi dân gian miễn phí nhằm bảo tồn và phát triển những trò chơi dân gian lành mạnh của Việt Nam như Chắn, Cờ Tướng, Cờ Úp. Để đảm bảo website luôn hoạt động lành mạnh. Ban quản trị (BQT) xin gửi đến các bạn những quy định khi tham gia sân chơi gamevh.net. Khi bạn đăng ký tham gia, đã mặc nhiên chấp nhận tuân thủ những quy định này.</p>
 
 <p><strong>I. QUY ĐỊNH ĐỐI VỚI NGƯỜI CHƠI</strong></p>
 
-<p><strong>1. 1 Về tư c&aacute;ch ph&aacute;p l&yacute;</strong></p>
+<p><strong>1. 1 Về tư cách pháp lý</strong></p>
 
-<p>- Tất cả người chơi đều c&oacute; thể&nbsp; tham gia dịch vụ tr&ograve; chơi do Gamevh.net ph&aacute;t h&agrave;nh.</p>
+<p>- Tất cả người chơi đều có thể&nbsp; tham gia dịch vụ trò chơi do Gamevh.net phát hành.</p>
 
-<p>- Do đặc th&ugrave; c&aacute;c game d&acirc;n gian Việt Nam, ch&uacute;ng t&ocirc;i kh&ocirc;ng khuyến kh&iacute;ch người chơi dưới 16 tuổi tham gia tr&ograve; chơi.</p>
+<p>- Do đặc thù các game dân gian Việt Nam, chúng tôi không khuyến khích người chơi dưới 16 tuổi tham gia trò chơi.</p>
 
-<p><strong>1. 2 Quy định khi đăng k&yacute; t&agrave;i khoản.</strong></p>
+<p><strong>1. 2 Quy định khi đăng ký tài khoản.</strong></p>
 
-<p>- Người chơi khi đăng k&yacute; t&agrave;i khoản phải cung cấp đầy dủ, ch&iacute;nh x&aacute;c th&ocirc;ng tin về t&ecirc;n tuổi, địa chỉ, điện thoại v&agrave; số CMND (Nếu chưa c&oacute; hoặc kh&ocirc;ng c&oacute; CMND c&oacute; thể sử dụng số CMND của người th&acirc;n).</p>
+<p>- Người chơi khi đăng ký tài khoản phải cung cấp đầy dủ, chính xác thông tin về tên tuổi, địa chỉ, điện thoại và số CMND (Nếu chưa có hoặc không có CMND có thể sử dụng số CMND của người thân).</p>
 
-<p>- Đ&acirc;y l&agrave; những y&ecirc;u cầu bắt buộc, ch&uacute;ng t&ocirc;i sẽ căn cứ v&agrave;o những th&ocirc;ng tin n&agrave;y để trao giải cho c&aacute;c bạn cũng như giải quyết c&aacute;c rủi ro, tổn thất xảy ra nếu c&oacute;. C&aacute;c trường hợp th&ocirc;ng tin kh&ocirc;ng đ&uacute;ng sự thật hoặc thiếu th&ocirc;ng tin sẽ kh&ocirc;ng được xem x&eacute;t giải quyết.</p>
+<p>- Đây là những yêu cầu bắt buộc, chúng tôi sẽ căn cứ vào những thông tin này để trao giải cho các bạn cũng như giải quyết các rủi ro, tổn thất xảy ra nếu có. Các trường hợp thông tin không đúng sự thật hoặc thiếu thông tin sẽ không được xem xét giải quyết.</p>
 
-<p><strong>1. 3 Quy định khi đặt t&ecirc;n (t&ecirc;n nh&acirc;n vật, t&ecirc;n c&acirc;u lạc bộ, hội nh&oacute;m v&agrave; t&ecirc;n t&agrave;i khoản).</strong></p>
+<p><strong>1. 3 Quy định khi đặt tên (tên nhân vật, tên câu lạc bộ, hội nhóm và tên tài khoản).</strong></p>
 
-<p>- Kh&ocirc;ng được sử dụng t&ecirc;n li&ecirc;n quan đến danh nh&acirc;n, t&ecirc;n c&aacute;c vị l&atilde;nh đạo của Đảng v&agrave; nh&agrave; nước.</p>
+<p>- Không được sử dụng tên liên quan đến danh nhân, tên các vị lãnh đạo của Đảng và nhà nước.</p>
 
-<p>- Kh&ocirc;ng được đặt t&ecirc;n, tạo biểu tưởng c&oacute; nội dung phản động, li&ecirc;n quan đến ch&iacute;nh trị, b&agrave;i x&iacute;ch t&ocirc;n gi&aacute;o, k&iacute;ch động bạo lực, đi lại truyền thống văn h&oacute;a của Việt Nam.</p>
+<p>- Không được đặt tên, tạo biểu tưởng có nội dung phản động, liên quan đến chính trị, bài xích tôn giáo, kích động bạo lực, đi lại truyền thống văn hóa của Việt Nam.</p>
 
-<p>- Kh&ocirc;ng được đặt t&ecirc;n, biểu tượng c&oacute; nội dung x&uacute;c phạm, kh&iacute;ch b&aacute;c đến người kh&aacute;c dưới bất kỳ h&igrave;nh thức n&agrave;o.</p>
+<p>- Không được đặt tên, biểu tượng có nội dung xúc phạm, khích bác đến người khác dưới bất kỳ hình thức nào.</p>
 
-<p>- Kh&ocirc;ng được đặt t&ecirc;n, tạo biểu tượng c&oacute; nội dung ph&aacute; rối, l&agrave;m mất uy t&iacute;n của c&aacute;c dịch vụ do Gamevh.net cung cấp.</p>
+<p>- Không được đặt tên, tạo biểu tượng có nội dung phá rối, làm mất uy tín của các dịch vụ do Gamevh.net cung cấp.</p>
 
-<p>- Tu&acirc;n theo sự gi&aacute;m s&aacute;t đặt t&ecirc;n theo bộ lọc với hơn 10.000 từ. Đội ngũ Game Master phải thường xuy&ecirc;n theo d&otilde;i, ghi nhận, xử l&yacute; c&aacute;c t&igrave;nh huống vi phạm.</p>
+<p>- Tuân theo sự giám sát đặt tên theo bộ lọc với hơn 10.000 từ. Đội ngũ Game Master phải thường xuyên theo dõi, ghi nhận, xử lý các tình huống vi phạm.</p>
 
-<p>T&acirc;́t cả các hành vi vi phạm quy định này đ&ecirc;̀u bị xử lý ở mức đ&ocirc;̣ cao nh&acirc;́t là khóa tài khoản vĩnh vi&ecirc;̃n.</p>
+<p>Tất cả các hành vi vi phạm quy định này đều bị xử lý ở mức độ cao nhất là khóa tài khoản vĩnh viễn.</p>
 
 <p><strong>1. 3 Mật khẩu</strong></p>
 
-<p><strong>-&nbsp;</strong>Tuyệt đối giữ g&igrave;n mật khẩu của m&igrave;nh, hạn chế chia sẻ cho người chơi kh&aacute;c. C&aacute;c trường hợp tổn thất do lộ mật khẩu sẽ kh&ocirc;ng được kh&ocirc;i phục.</p>
+<p><strong>-&nbsp;</strong>Tuyệt đối giữ gìn mật khẩu của mình, hạn chế chia sẻ cho người chơi khác. Các trường hợp tổn thất do lộ mật khẩu sẽ không được khôi phục.</p>
 
-<p>- Kh&aacute;i niệm mật khẩu ở đ&acirc;y được hiểu l&agrave; mật khẩu đăng nhập v&agrave; c&acirc;u hỏi b&iacute; mật.</p>
+<p>- Khái niệm mật khẩu ở đây được hiểu là mật khẩu đăng nhập và câu hỏi bí mật.</p>
 
-<p><strong>1. 4 C&aacute;c h&agrave;nh vi sau tuyệt đối nghi&ecirc;m cấm</strong></p>
+<p><strong>1. 4 Các hành vi sau tuyệt đối nghiêm cấm</strong></p>
 
-<p>- X&acirc;m phạm, tiếp cận, sử dụng hay sử dụng bất kỳ sự can thiệp n&agrave;o đến c&aacute;c phần trong m&aacute;y chủ tr&ograve; chơi.</p>
+<p>- Xâm phạm, tiếp cận, sử dụng hay sử dụng bất kỳ sự can thiệp nào đến các phần trong máy chủ trò chơi.</p>
 
-<p>- Sử dụng chương tr&igrave;nh, c&ocirc;ng cụ để thay đỏi kết quả, l&agrave;m mất t&iacute;nh c&ocirc;ng bằng của tr&ograve; chơi. Lợi dụng lỗi hệ thống để ph&aacute; hoại v&agrave; trục lợi.</p>
+<p>- Sử dụng chương trình, công cụ để thay đỏi kết quả, làm mất tính công bằng của trò chơi. Lợi dụng lỗi hệ thống để phá hoại và trục lợi.</p>
 
-<p>- Mạo danh c&aacute;c th&agrave;nh vi&ecirc;n kh&aacute;c, mạo danh Admin, Game Master, nh&acirc;n vi&ecirc;n Gamevh.net</p>
+<p>- Mạo danh các thành viên khác, mạo danh Admin, Game Master, nhân viên Gamevh.net</p>
 
-<p>- Truyền b&aacute; c&aacute;c th&ocirc;ng tin bất hợp ph&aacute;p, lừa gạt, b&ocirc;i nhọ v&agrave; sỉ nhục người chơi kh&aacute;c. C&aacute;c nội dung khi&ecirc;u d&acirc;m, đe dọa, vi phạm đạo đức chung của x&atilde; hội hay c&aacute;c văn h&oacute;a phẩm vi phạm ph&aacute;p luật nh&agrave; nước Việt Nam hiện h&agrave;nh.</p>
+<p>- Truyền bá các thông tin bất hợp pháp, lừa gạt, bôi nhọ và sỉ nhục người chơi khác. Các nội dung khiêu dâm, đe dọa, vi phạm đạo đức chung của xã hội hay các văn hóa phẩm vi phạm pháp luật nhà nước Việt Nam hiện hành.</p>
 
-<p>- Truyền b&aacute; quảng c&aacute;o chưa nhận được sự đồng &yacute; của đơn vị chủ quản tr&ograve; chơi.</p>
+<p>- Truyền bá quảng cáo chưa nhận được sự đồng ý của đơn vị chủ quản trò chơi.</p>
 
-<p>-&nbsp;Nghi&ecirc;m c&acirc;́m t&acirc;́t cả các hành vi văng tục, nhục mạ, b&ocirc;i nhọ những người chơi khác dưới mọi hình thức Ví dụ: Chat phòng, gửi tin nhắn, chat k&ecirc;nh giải đ&acirc;́u...</p>
+<p>-&nbsp;Nghiêm cấm tất cả các hành vi văng tục, nhục mạ, bôi nhọ những người chơi khác dưới mọi hình thức Ví dụ: Chat phòng, gửi tin nhắn, chat kênh giải đấu...</p>
 
-<p>- Nghi&ecirc;m cấm h&agrave;nh vi rao b&aacute;n, mua b&aacute;n Xu trong game, nếu vi phạm sẽ bị xử l&yacute; ở h&igrave;nh thức cao nhất l&agrave; kh&oacute;a t&agrave;i khoản vĩnh viễn, truy thu toàn b&ocirc;̣ s&ocirc;́ Xu giao dịch.&nbsp;</p>
+<p>- Nghiêm cấm hành vi rao bán, mua bán Xu trong game, nếu vi phạm sẽ bị xử lý ở hình thức cao nhất là khóa tài khoản vĩnh viễn, truy thu toàn bộ số Xu giao dịch.&nbsp;</p>
 
-<p><strong>1. 5 Đảm bảo t&iacute;nh c&ocirc;ng bằng trong game.</strong></p>
+<p><strong>1. 5 Đảm bảo tính công bằng trong game.</strong></p>
 
-<p>- Trong qu&aacute; tr&igrave;nh tham gia tr&ograve; chơi, mọi h&agrave;nh vi cố t&igrave;nh gian lận như đ&aacute;nh cặp, bơm b&agrave;i, l&agrave;m giảm đi t&iacute;nh c&ocirc;ng bằng của tr&ograve; chơi đều bị cấm và xử lý tùy mức đ&ocirc;̣ nghi&ecirc;m trọng do BQT đánh giá (từ nhắc nhở đ&ecirc;́n khóa vĩnh vi&ecirc;̃n tài khoản).</p>
+<p>- Trong quá trình tham gia trò chơi, mọi hành vi cố tình gian lận như đánh cặp, bơm bài, làm giảm đi tính công bằng của trò chơi đều bị cấm và xử lý tùy mức độ nghiêm trọng do BQT đánh giá (từ nhắc nhở đến khóa vĩnh viễn tài khoản).</p>
 
-<p>- Cấm c&aacute;c h&agrave;nh vi lợi dụng kẽ hở, ch&iacute;nh s&aacute;ch của Gamevh.net để gom Xu, c&agrave;y Xu. (ví dụ: l&acirc;̣p nhi&ecirc;̀u tài khoản phụ đ&ecirc;̉ gom Xu v&ecirc;̀ tài khoản chính hằng ngày...). Đ&ocirc;́i với các hành vi này sẽ bị xử lý tùy thu&ocirc;̣c mức đ&ocirc;̣ vi phạm, từ mức khóa t&acirc;́t cả tài khoản phụ đ&ecirc;́n khóa cả tài khoản chính l&acirc;̃n phụ. <a href="http://gamevh.net/domain/vh/module/article_detail.jsp?pk=1669">Chi ti&ecirc;́t click đ&acirc;y</a></p>
+<p>- Cấm các hành vi lợi dụng kẽ hở, chính sách của Gamevh.net để gom Xu, cày Xu. (ví dụ: lập nhiều tài khoản phụ để gom Xu về tài khoản chính hằng ngày...). Đối với các hành vi này sẽ bị xử lý tùy thuộc mức độ vi phạm, từ mức khóa tất cả tài khoản phụ đến khóa cả tài khoản chính lẫn phụ. <a href="http://gamevh.net/domain/vh/module/article_detail.jsp?pk=1669">Chi tiết click đây</a></p>
 
-<p>- Tuyệt đối cấm c&aacute;c h&agrave;nh vi x&uacute;c phạm nh&agrave; nước, danh nh&acirc;n, ban quản trị v&agrave; những người chơi kh&aacute;c.</p>
+<p>- Tuyệt đối cấm các hành vi xúc phạm nhà nước, danh nhân, ban quản trị và những người chơi khác.</p>
 
-<p><strong>1. 6 Về h&igrave;nh thức xử phạt.</strong></p>
+<p><strong>1. 6 Về hình thức xử phạt.</strong></p>
 
-<p>Dựa v&agrave;o đ&aacute;nh gi&aacute; mức độ nghi&ecirc;m trọng, ban quản trị sẽ quyết định đến những h&igrave;nh thức xử phạt tương ứng:</p>
+<p>Dựa vào đánh giá mức độ nghiêm trọng, ban quản trị sẽ quyết định đến những hình thức xử phạt tương ứng:</p>
 
-<p>- Nhắc nhở ri&ecirc;ng, qua tin nhắn, điện thoại. TRuy thu đi&ecirc;̉m s&ocirc;́, Xu kh&ocirc;ng hợp pháp.</p>
+<p>- Nhắc nhở riêng, qua tin nhắn, điện thoại. TRuy thu điểm số, Xu không hợp pháp.</p>
 
-<p>- Nhắc nhở tr&ecirc;n trang chủ, truy thu điểm số, Xu..v...v.. kh&ocirc;ng hợp ph&aacute;p.</p>
+<p>- Nhắc nhở trên trang chủ, truy thu điểm số, Xu..v...v.. không hợp pháp.</p>
 
-<p>- Kh&oacute;a t&agrave;i khoản 3 ng&agrave;y, truy thu điểm số, Xu kh&ocirc;ng hợp ph&aacute;p.</p>
+<p>- Khóa tài khoản 3 ngày, truy thu điểm số, Xu không hợp pháp.</p>
 
-<p>- Kh&oacute;a vĩnh viễn t&agrave;i khoản, truy thu tất cả điểm số v&agrave; Xu.</p>
+<p>- Khóa vĩnh viễn tài khoản, truy thu tất cả điểm số và Xu.</p>
 
-<p><strong><span style="color:#0000FF">Do mức độ vi phạm trong game ng&agrave;y c&agrave;ng nghi&ecirc;m trọng v&agrave; tr&agrave;n lan n&ecirc;n mức độ xử l&yacute; BQT sẽ n&acirc;ng mức theo khung h&igrave;nh phạt sau:</span></strong></p>
+<p><strong><span style="color:#0000FF">Do mức độ vi phạm trong game ngày càng nghiêm trọng và tràn lan nên mức độ xử lý BQT sẽ nâng mức theo khung hình phạt sau:</span></strong></p>
 
 <p style="text-align:center"><strong><span style="color:#0000FF">KHUNG XỬ PHẠT</span></strong></p>
 
@@ -413,275 +125,204 @@
 			<td style="text-align:center"><span style="color:#0000FF"><strong>Khung xử phạt</strong></span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Chửi b&acirc;̣y, nói tục, xúc phạm người chơi khác hoặc BQT</span></td>
-			<td><span style="color:#0000FF">Cảnh c&aacute;o</span></td>
+			<td><span style="color:#0000FF">Chửi bậy, nói tục, xúc phạm người chơi khác hoặc BQT</span></td>
+			<td><span style="color:#0000FF">Cảnh cáo</span></td>
 		</tr>
 		<tr>
 			<td><span style="color:#0000FF">Đánh cặp lần 1</span></td>
-			<td><span style="color:#0000FF">Truy thu hết t&agrave;i khoản, kh&oacute;a 30 ng&agrave;y</span></td>
+			<td><span style="color:#0000FF">Truy thu hết tài khoản, khóa 30 ngày</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Cày đi&ecirc;̉m Elo</span></td>
-			<td><span style="color:#0000FF">Trừ điểm t&ugrave;y mức độ vi phạm</span></td>
+			<td><span style="color:#0000FF">Cày điểm Elo</span></td>
+			<td><span style="color:#0000FF">Trừ điểm tùy mức độ vi phạm</span></td>
 		</tr>
 		<tr>
 			<td><span style="color:#0000FF">Rao bán Xu&nbsp;</span></td>
-			<td><span style="color:#0000CD">Kh&oacute;a t&agrave;i khoản 30 ng&agrave;y t&ugrave;y mức độ lưu động xử l&yacute;</span></td>
+			<td><span style="color:#0000CD">Khóa tài khoản 30 ngày tùy mức độ lưu động xử lý</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000CD">B&aacute;n xu</span></td>
-			<td><span style="color:#0000CD">Tịch thu hết t&agrave;i khoản</span></td>
+			<td><span style="color:#0000CD">Bán xu</span></td>
+			<td><span style="color:#0000CD">Tịch thu hết tài khoản</span></td>
 		</tr>
 		<tr>
 			<td><span style="color:#0000CD">Gom xu</span></td>
-			<td><span style="color:#0000CD">Kh&oacute;a t&agrave;i khoản cảnh c&aacute;o - lưu động thời gian t&ugrave;y mức độ vi phạm - c&oacute; thể tịch thu nếu vi phạm nghi&ecirc;m trọng.</span></td>
+			<td><span style="color:#0000CD">Khóa tài khoản cảnh cáo - lưu động thời gian tùy mức độ vi phạm - có thể tịch thu nếu vi phạm nghiêm trọng.</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000CD">T&agrave;i khoản phụ để bơm xu t&agrave;i khoản ch&iacute;nh</span></td>
-			<td><span style="color:#0000CD">Kh&oacute;a vĩnh vi&ecirc;n</span></td>
+			<td><span style="color:#0000CD">Tài khoản phụ để bơm xu tài khoản chính</span></td>
+			<td><span style="color:#0000CD">Khóa vĩnh viên</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Xúc phạm ch&ecirc;́ đ&ocirc;̣, bàn lu&acirc;̣n chính trị</span></td>
-			<td><span style="color:#0000FF">Cảnh c&aacute;o</span></td>
+			<td><span style="color:#0000FF">Xúc phạm chế độ, bàn luận chính trị</span></td>
+			<td><span style="color:#0000FF">Cảnh cáo</span></td>
 		</tr>
 		<tr>
 			<td><span style="color:#0000FF">Spam khung chat chung</span></td>
-			<td><span style="color:#0000FF">Cảnh c&aacute;o</span></td>
+			<td><span style="color:#0000FF">Cảnh cáo</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Nhận xu chuyển từ t&agrave;i khoản vi phạm game qua chuyển hoặc chơi game</span></td>
-			<td><span style="color:#0000FF">Thu hồi hết xu trong t&agrave;i khoản</span></td>
+			<td><span style="color:#0000FF">Nhận xu chuyển từ tài khoản vi phạm game qua chuyển hoặc chơi game</span></td>
+			<td><span style="color:#0000FF">Thu hồi hết xu trong tài khoản</span></td>
 		</tr>
 		<tr>
 			<td><span style="color:#0000FF">Mua Xu từ người chơi khác</span></td>
 			<td><span style="color:#0000FF">Tịch thu số xu của người mua</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Ti&ecirc;́p tục chửi b&acirc;̣y sau khi nhắc nhở</span></td>
-			<td><span style="color:#0000FF">Kh&oacute;a t&agrave;i khoản 3 ng&agrave;y</span></td>
+			<td><span style="color:#0000FF">Tiếp tục chửi bậy sau khi nhắc nhở</span></td>
+			<td><span style="color:#0000FF">Khóa tài khoản 3 ngày</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Ti&ecirc;́p tục đánh cặp sau khi nhắc nhở</span></td>
-			<td><span style="color:#0000FF">Truy thu hết t&agrave;i khoản, kh&oacute;a 60 ng&agrave;y</span></td>
+			<td><span style="color:#0000FF">Tiếp tục đánh cặp sau khi nhắc nhở</span></td>
+			<td><span style="color:#0000FF">Truy thu hết tài khoản, khóa 60 ngày</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Nhận xu chuyển từ t&agrave;i khoản vi phạm game qua chuyển hoặc chơi game</span></td>
-			<td><span style="color:#0000FF">Thu hết t&agrave;i khoản</span></td>
+			<td><span style="color:#0000FF">Nhận xu chuyển từ tài khoản vi phạm game qua chuyển hoặc chơi game</span></td>
+			<td><span style="color:#0000FF">Thu hết tài khoản</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Ti&ecirc;́p tục cày Elo sau khi nhắc nhở</span></td>
-			<td><span style="color:#0000FF">Truy thu v&ecirc;̀ còn 1000 đi&ecirc;̉m Elo</span></td>
+			<td><span style="color:#0000FF">Tiếp tục cày Elo sau khi nhắc nhở</span></td>
+			<td><span style="color:#0000FF">Truy thu về còn 1000 điểm Elo</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Ti&ecirc;́p tục giúp đỡ cày đi&ecirc;̉m Elo</span></td>
-			<td><span style="color:#0000FF">Kh&oacute;a t&agrave;i khoản 3 ng&agrave;y</span></td>
+			<td><span style="color:#0000FF">Tiếp tục giúp đỡ cày điểm Elo</span></td>
+			<td><span style="color:#0000FF">Khóa tài khoản 3 ngày</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Ti&ecirc;́p tục rao bán Xu khi đã được nhắc nhở, chưa c&oacute; bằng chứng b&aacute;n xu</span></td>
-			<td><span style="color:#0000FF">Kh&oacute;a t&agrave;i khoản 3 ng&agrave;y</span></td>
+			<td><span style="color:#0000FF">Tiếp tục rao bán Xu khi đã được nhắc nhở, chưa có bằng chứng bán xu</span></td>
+			<td><span style="color:#0000FF">Khóa tài khoản 3 ngày</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Đã có hành vi bán Xu, có bằng chứng cụ th&ecirc;̉ (pm, chụp ảnh chat)</span></td>
-			<td><span style="color:#0000FF">Thu hết xu trong t&agrave;i khoản, kh&oacute;a t&agrave;i khoản 60 ng&agrave;y</span></td>
+			<td><span style="color:#0000FF">Đã có hành vi bán Xu, có bằng chứng cụ thể (pm, chụp ảnh chat)</span></td>
+			<td><span style="color:#0000FF">Thu hết xu trong tài khoản, khóa tài khoản 60 ngày</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Ti&ecirc;́p tục Spam mức độ nhẹ sau khi đã nhắc nhở</span></td>
-			<td><span style="color:#0000FF">Kh&oacute;a t&agrave;i khoản 7 ng&agrave;y</span></td>
+			<td><span style="color:#0000FF">Tiếp tục Spam mức độ nhẹ sau khi đã nhắc nhở</span></td>
+			<td><span style="color:#0000FF">Khóa tài khoản 7 ngày</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Xúc phạm ch&ecirc;́ đ&ocirc;̣, bàn lu&acirc;̣n chính trị sau khi cảnh cáo l&acirc;̀n 1</span></td>
-			<td><span style="color:#0000FF">Kh&oacute;a t&agrave;i khoản 7 ng&agrave;y</span></td>
+			<td><span style="color:#0000FF">Xúc phạm chế độ, bàn luận chính trị sau khi cảnh cáo lần 1</span></td>
+			<td><span style="color:#0000FF">Khóa tài khoản 7 ngày</span></td>
 		</tr>
 		<tr>
 			<td><span style="color:#0000FF">Xúc phạm người chơi khác, xúc phạm BQT nhiều lần</span></td>
-			<td><span style="color:#0000FF">Kh&oacute;a t&agrave;i khoản 30 ng&agrave;y</span></td>
+			<td><span style="color:#0000FF">Khóa tài khoản 30 ngày</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Ti&ecirc;́p tục chửi b&acirc;̣y sau khi cảnh cáo l&acirc;̀n 1, 2</span></td>
-			<td><span style="color:#0000FF">Kh&oacute;a t&agrave;i khoản 7 ng&agrave;y</span></td>
+			<td><span style="color:#0000FF">Tiếp tục chửi bậy sau khi cảnh cáo lần 1, 2</span></td>
+			<td><span style="color:#0000FF">Khóa tài khoản 7 ngày</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Ti&ecirc;́p tục đánh cặp sau khi cảnh cáo l&acirc;̀n 1, 2</span></td>
-			<td><span style="color:#0000FF">Truy thu hết t&agrave;i khoản - kh&oacute;a t&agrave;i khoản vĩnh viễn</span></td>
+			<td><span style="color:#0000FF">Tiếp tục đánh cặp sau khi cảnh cáo lần 1, 2</span></td>
+			<td><span style="color:#0000FF">Truy thu hết tài khoản - khóa tài khoản vĩnh viễn</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Ti&ecirc;́p tục bán Xu sau khi nhắc nhở l&acirc;̀n 1,2</span></td>
-			<td><span style="color:#0000FF">Truy thu hết t&agrave;i khoản - kh&oacute;a t&agrave;i khoản vĩnh viễn</span></td>
+			<td><span style="color:#0000FF">Tiếp tục bán Xu sau khi nhắc nhở lần 1,2</span></td>
+			<td><span style="color:#0000FF">Truy thu hết tài khoản - khóa tài khoản vĩnh viễn</span></td>
 		</tr>
 		<tr>
-			<td><span style="color:#0000FF">Spam quảng cáo khi kh&ocirc;ng được sự đ&ocirc;̀ng ý của BQT</span></td>
-			<td><span style="color:#0000FF">Kh&oacute;a t&agrave;i khoản vĩnh viễn</span></td>
+			<td><span style="color:#0000FF">Spam quảng cáo khi không được sự đồng ý của BQT</span></td>
+			<td><span style="color:#0000FF">Khóa tài khoản vĩnh viễn</span></td>
 		</tr>
 		<tr>
 			<td><span style="color:#0000FF">Lừa đảo người chơi khác</span></td>
-			<td><span style="color:#0000FF">Kh&oacute;a t&agrave;i khoản vĩnh viễn</span></td>
+			<td><span style="color:#0000FF">Khóa tài khoản vĩnh viễn</span></td>
 		</tr>
 	</tbody>
 </table>
 
-<p>Các trường hợp chưa c&acirc;̣p nh&acirc;̣t vào bảng tr&ecirc;n sẽ được xử lý tùy theo đánh giá mức đ&ocirc;̣ h&acirc;̣u quả từ ban quản trị.</p>
+<p>Các trường hợp chưa cập nhật vào bảng trên sẽ được xử lý tùy theo đánh giá mức độ hậu quả từ ban quản trị.</p>
 
-<p><strong>II. C&Aacute;C THỎA THUẬN CHUNG</strong></p>
+<p><strong>II. CÁC THỎA THUẬN CHUNG</strong></p>
 
-<p><strong>2. 1 C&aacute;c thay đổi về nội dung của tr&ograve; chơi.</strong></p>
+<p><strong>2. 1 Các thay đổi về nội dung của trò chơi.</strong></p>
 
-<p>- Ch&uacute;ng t&ocirc;i c&oacute; thể - với to&agrave;n quyền hạn của m&igrave;nh bổ sung, thay đổi, x&oacute;a bỏ bất kỳ th&ocirc;ng tin n&agrave;o của tr&ograve; chơi m&agrave; kh&ocirc;ng cần th&ocirc;ng b&aacute;o trước.</p>
+<p>- Chúng tôi có thể - với toàn quyền hạn của mình bổ sung, thay đổi, xóa bỏ bất kỳ thông tin nào của trò chơi mà không cần thông báo trước.</p>
 
-<p>- Nếu kh&ocirc;ng đồng &yacute; với c&aacute;c thay đổi đ&oacute;, c&aacute;c bạn c&oacute; thể nhưng sử dụng dịch vụ. Việc tiếp tục sử dụng dịch vụ mặc nhi&ecirc;n được hiểu l&agrave; đồng &yacute; với c&aacute;c thay đổi đ&oacute;.</p>
+<p>- Nếu không đồng ý với các thay đổi đó, các bạn có thể nhưng sử dụng dịch vụ. Việc tiếp tục sử dụng dịch vụ mặc nhiên được hiểu là đồng ý với các thay đổi đó.</p>
 
 <p><strong>2. 2 Thay đổi quy định.</strong></p>
 
-<p>- Ch&uacute;ng t&ocirc;i c&oacute; to&agrave;n quyền thay đổi những điều khoản kh&ocirc;ng c&ograve;n ph&ugrave; hợp trong quy định m&agrave; kh&ocirc;ng cần th&ocirc;ng b&aacute;o trước.</p>
+<p>- Chúng tôi có toàn quyền thay đổi những điều khoản không còn phù hợp trong quy định mà không cần thông báo trước.</p>
 
-<p>- Nếu kh&ocirc;ng đồng &yacute; với c&aacute;c thay đổi đ&oacute;, c&aacute;c bạn c&oacute; thể nhưng sử dụng dịch vụ. Việc tiếp tục sử dụng dịch vụ mặc nhi&ecirc;n được hiểu l&agrave; đồng &yacute; với c&aacute;c thay đổi đ&oacute;.</p>
+<p>- Nếu không đồng ý với các thay đổi đó, các bạn có thể nhưng sử dụng dịch vụ. Việc tiếp tục sử dụng dịch vụ mặc nhiên được hiểu là đồng ý với các thay đổi đó.</p>
 
-<p><strong>2. 3 Sự gi&aacute;n đoạn của dịch vụ.</strong></p>
+<p><strong>2. 3 Sự gián đoạn của dịch vụ.</strong></p>
 
-<p>- Ch&uacute;ng t&ocirc;i c&oacute; quyền ngừng cung cấp dịch trong khoảng thời gian nhất định để bảo tr&igrave;, sửa chữa m&aacute;y m&oacute;c v&agrave; sẽ c&oacute; th&ocirc;ng b&aacute;o trước cho người chơi tr&ecirc;n Web ch&iacute;nh th&uacute;c của tr&ograve; chơi. Ch&uacute;ng t&ocirc;i kh&ocirc;ng bảo đảm bạn c&oacute; thể kết nối v&agrave;o dịch vụ bất cứ l&uacute;c n&agrave;o.</p>
+<p>- Chúng tôi có quyền ngừng cung cấp dịch trong khoảng thời gian nhất định để bảo trì, sửa chữa máy móc và sẽ có thông báo trước cho người chơi trên Web chính thúc của trò chơi. Chúng tôi không bảo đảm bạn có thể kết nối vào dịch vụ bất cứ lúc nào.</p>
 
-<p>- Bạn thừ nhận dịch vụ của ch&uacute;ng t&ocirc;i c&oacute; thể bị gi&aacute;n đoạn bởi c&aacute;c l&yacute; do nằm ngo&agrave;i tầm kiểm so&aacute;t v&iacute; dụ: Chập điện, thi&ecirc;n tai, hỏa hoạn&hellip;Ch&uacute;ng t&ocirc;i kh&ocirc;ng chịu tr&aacute;ch nhiệm cho việc gi&aacute;n đoạn dịch vụ, tr&igrave; ho&atilde;n hay kh&ocirc;ng thể cung cấp v&igrave; c&aacute;c l&yacute; do tr&ecirc;n.</p>
+<p>- Bạn thừ nhận dịch vụ của chúng tôi có thể bị gián đoạn bởi các lý do nằm ngoài tầm kiểm soát ví dụ: Chập điện, thiên tai, hỏa hoạn…Chúng tôi không chịu trách nhiệm cho việc gián đoạn dịch vụ, trì hoãn hay không thể cung cấp vì các lý do trên.</p>
 
 <p><strong>2. 4 Cấm truy cập</strong></p>
 
-<p>- Ch&uacute;ng t&ocirc;i c&oacute; to&agrave;n quyền, tại bất cứ thời điểm n&agrave;o cấm, từ chối truy cập của c&aacute;c bạn v&agrave;o tr&ograve; chơi hoặc bất kỳ phần n&agrave;o của hệ thống nếu ch&uacute;ng t&ocirc;i cho rằng bạn đ&atilde; vi phạm bất kỳ điều khoản n&agrave;o trong bản quy định hoặc ch&uacute;ng t&ocirc;i cho rằng h&agrave;nh vi đ&oacute; l&agrave; ph&ugrave; hợp v&agrave; cần thiết.</p>
+<p>- Chúng tôi có toàn quyền, tại bất cứ thời điểm nào cấm, từ chối truy cập của các bạn vào trò chơi hoặc bất kỳ phần nào của hệ thống nếu chúng tôi cho rằng bạn đã vi phạm bất kỳ điều khoản nào trong bản quy định hoặc chúng tôi cho rằng hành vi đó là phù hợp và cần thiết.</p>
 
 <p><strong>2.5 Quy định về bồi thường</strong></p>
 
-<p>- Ch&uacute;ng t&ocirc;i tiếp nhận v&agrave; xử l&yacute; bồi thường đối với c&aacute;c trường hợp thiệt hại từ lỗi hệ thống, dịch vụ được cung cấp bởi ch&uacute;ng t&ocirc;i.</p>
+<p>- Chúng tôi tiếp nhận và xử lý bồi thường đối với các trường hợp thiệt hại từ lỗi hệ thống, dịch vụ được cung cấp bởi chúng tôi.</p>
 
-<p>- Ch&uacute;ng t&ocirc;i chỉ tiếp nhận đối với c&aacute;c t&agrave;i khoản đ&atilde; thực hiện đầy đủ c&aacute;c y&ecirc;u cầu tại quy định đăng k&yacute; t&agrave;i khoản.</p>
+<p>- Chúng tôi chỉ tiếp nhận đối với các tài khoản đã thực hiện đầy đủ các yêu cầu tại quy định đăng ký tài khoản.</p>
 
-<p>- C&aacute;c vấn đề mất m&aacute;t do gian lận, sơ suất của người chơi, ch&uacute;ng t&ocirc;i sẽ t&ugrave;y t&iacute;nh chất của sự việc để xử l&yacute; với ti&ecirc;u ch&iacute; đảm bảo tối đa quyền lợi của kh&aacute;ch h&agrave;ng.</p>
+<p>- Các vấn đề mất mát do gian lận, sơ suất của người chơi, chúng tôi sẽ tùy tính chất của sự việc để xử lý với tiêu chí đảm bảo tối đa quyền lợi của khách hàng.</p>
 
-<p><strong>2.6 Th&ocirc;ng tin về b&ecirc;n thứ ba</strong></p>
+<p><strong>2.6 Thông tin về bên thứ ba</strong></p>
 
-<p>- Th&ocirc;ng tin được cung cấp tại hệ thống game online Gamevh.net c&oacute; thể chứa th&ocirc;ng tin từ b&ecirc;n thứ ba hoặc chọn lọc từ c&aacute;c nguồn. Những th&ocirc;ng tin đ&oacute; kh&ocirc;ng được coi l&agrave; khuyến nghị hoặc x&aacute;c thực của Gamevh.net cho bất kỳ người, sản phẩm hoặc dịch vụ n&agrave;o.</p>
+<p>- Thông tin được cung cấp tại hệ thống game online Gamevh.net có thể chứa thông tin từ bên thứ ba hoặc chọn lọc từ các nguồn. Những thông tin đó không được coi là khuyến nghị hoặc xác thực của Gamevh.net cho bất kỳ người, sản phẩm hoặc dịch vụ nào.</p>
 
-<p>- Ch&uacute;ng t&ocirc;i kh&ocirc;ng độc lập thẩm định th&ocirc;ng tin v&agrave; kh&ocirc;ng c&oacute; tr&aacute;ch nhiệm nếu th&ocirc;ng tin b&ecirc;n thứ ba kh&ocirc;ng cập nhật. Theo đ&oacute;, ch&uacute;ng t&ocirc;i kh&ocirc;ng nhận bất cứ tr&aacute;ch nhiệm n&agrave;o về c&aacute;c th&ocirc;ng tin ấy.</p>
+<p>- Chúng tôi không độc lập thẩm định thông tin và không có trách nhiệm nếu thông tin bên thứ ba không cập nhật. Theo đó, chúng tôi không nhận bất cứ trách nhiệm nào về các thông tin ấy.</p>
 
-<p>- Trong qu&aacute; tr&igrave;nh vận h&agrave;nh, trong game c&oacute; thể xuất hiện th&ocirc;ng tin từ b&ecirc;n thứ 3 như: người chơi mua b&aacute;n, tr&ograve; chuyện v&agrave; c&aacute;c th&ocirc;ng b&aacute;o hội nh&oacute;m. Đ&oacute; l&agrave; những th&ocirc;ng b&aacute;o ch&uacute;ng t&ocirc;i kh&ocirc;ng trực tiếp ban h&agrave;nh. Ch&uacute;ng t&ocirc;i khuyến kh&iacute;ch người d&ugrave;ng n&ecirc;n c&acirc;n nhắc trước khi tin d&ugrave;ng c&aacute;c th&ocirc;ng tin n&agrave;y.</p>
+<p>- Trong quá trình vận hành, trong game có thể xuất hiện thông tin từ bên thứ 3 như: người chơi mua bán, trò chuyện và các thông báo hội nhóm. Đó là những thông báo chúng tôi không trực tiếp ban hành. Chúng tôi khuyến khích người dùng nên cân nhắc trước khi tin dùng các thông tin này.</p>
 
-<p>- Đội ngũ GM trực trong game của Gamevh.net sẽ trực tiếp ngăn chăn c&aacute;c th&ocirc;ng tin từ b&ecirc;n thứ 3 nếu ph&aacute;t hiện thấy nghi vấn c&oacute; t&iacute;nh chất vi phạm.</p>
+<p>- Đội ngũ GM trực trong game của Gamevh.net sẽ trực tiếp ngăn chăn các thông tin từ bên thứ 3 nếu phát hiện thấy nghi vấn có tính chất vi phạm.</p>
 
-<p><strong>2.7 Li&ecirc;n kết đến v&agrave; đi tới hệ thống của Gamevh.net</strong></p>
+<p><strong>2.7 Liên kết đến và đi tới hệ thống của Gamevh.net</strong></p>
 
-<p>- L&agrave; c&aacute;c li&ecirc;n kết tới hệ thống của GameVH.net c&oacute; thể dẫn bạn tới c&aacute;c website kh&aacute;c. C&aacute;c bạn thừa nhận v&agrave; đồng &yacute; rằng: GameVH kh&ocirc;ng chịu tr&aacute;ch nhiệm về sự ch&iacute;nh x&aacute;c cũng như t&iacute;nh giải tr&iacute; của bất kỳ th&ocirc;ng tin n&agrave;o do website li&ecirc;n kết cung cấp.</p>
+<p>- Là các liên kết tới hệ thống của GameVH.net có thể dẫn bạn tới các website khác. Các bạn thừa nhận và đồng ý rằng: GameVH không chịu trách nhiệm về sự chính xác cũng như tính giải trí của bất kỳ thông tin nào do website liên kết cung cấp.</p>
 
-<p>- L&ecirc;n kết tới c&aacute;c website kh&aacute;c kh&ocirc;ng cấu th&agrave;nh sự x&aacute;c nhận của ch&uacute;ng t&ocirc;i về th&ocirc;ng tin, sản phẩm, quảng c&aacute;o hay c&aacute;c t&agrave;i liệu kh&aacute;c của website đ&oacute;.</p>
+<p>- Lên kết tới các website khác không cấu thành sự xác nhận của chúng tôi về thông tin, sản phẩm, quảng cáo hay các tài liệu khác của website đó.</p>
 
-<p><strong>2.8 Quyền sở hữu tr&iacute; tuệ</strong></p>
+<p><strong>2.8 Quyền sở hữu trí tuệ</strong></p>
 
-<p>- Sản phẩm hệ thống game online Gamevh.net đ&atilde; được cấp đăng k&yacute; quyền t&aacute;c giả do cục bản quyền t&aacute;c giả.</p>
+<p>- Sản phẩm hệ thống game online Gamevh.net đã được cấp đăng ký quyền tác giả do cục bản quyền tác giả.</p>
 
-<p>- Tất cả c&aacute;c h&agrave;nh vi tải l&ecirc;n, gửi, xuất bản, t&aacute;i sản xuất, truyền, ph&acirc;n ph&aacute;t m&agrave; kh&ocirc;ng nhận được sự đồng &yacute; bằng văn bản Gamevh.net đều l&agrave; tr&aacute;i ph&aacute;p luật.</p>
+<p>- Tất cả các hành vi tải lên, gửi, xuất bản, tái sản xuất, truyền, phân phát mà không nhận được sự đồng ý bằng văn bản Gamevh.net đều là trái pháp luật.</p>
 
-<p>- Ch&uacute;ng t&ocirc;i được ph&eacute;p sử dụng c&aacute;c đ&oacute;ng g&oacute;p, phản hồi của người chơi để thay đổi sản phẩm sản phẩm. Bạn từ bỏ bất kỳ quyền v&agrave; sự đ&ograve;i hỏi với tất cả c&aacute;c khoản tiền thưởng, ph&iacute;, nhuận b&uacute;t, lệ ph&iacute; hay c&aacute;c kiểu chi trả kh&aacute;c li&ecirc;n quan đến việc ch&uacute;ng t&ocirc;i sử dụng &ldquo;G&oacute;p &yacute;&rdquo;, &ldquo;Phản hồi&rdquo; của bạn cho việc chỉnh sửa sản phẩm.</p>
+<p>- Chúng tôi được phép sử dụng các đóng góp, phản hồi của người chơi để thay đổi sản phẩm sản phẩm. Bạn từ bỏ bất kỳ quyền và sự đòi hỏi với tất cả các khoản tiền thưởng, phí, nhuận bút, lệ phí hay các kiểu chi trả khác liên quan đến việc chúng tôi sử dụng “Góp ý”, “Phản hồi” của bạn cho việc chỉnh sửa sản phẩm.</p>
 
-<p><strong>2.9 Th&ocirc;ng tin người d&ugrave;ng</strong></p>
+<p><strong>2.9 Thông tin người dùng</strong></p>
 
-<p>- Với c&aacute;c dịch vụ y&ecirc;u cầu đăng k&yacute; t&agrave;i khoản. Ch&uacute;ng t&ocirc;i y&ecirc;u cầu c&aacute;c bạn cung cấp th&ocirc;ng tin ch&iacute;nh x&aacute;c. Ch&uacute;ng t&ocirc;i c&oacute; thể sử dụng c&aacute;c th&ocirc;ng tin n&agrave;y để l&agrave;m c&aacute;c cuộc khảo s&aacute;t, đ&aacute;nh gi&aacute; về c&aacute;c chương tr&igrave;nh khuyến m&atilde;i, sự kiện cho sản phẩm. Ngo&agrave;i ra ch&uacute;ng t&ocirc;i sẽ kh&ocirc;ng cung cấp th&ocirc;ng tin cho b&ecirc;n thứ 3 nếu kh&ocirc;ng nhận được sự cho ph&eacute;p của c&aacute;c bạn.</p>
+<p>- Với các dịch vụ yêu cầu đăng ký tài khoản. Chúng tôi yêu cầu các bạn cung cấp thông tin chính xác. Chúng tôi có thể sử dụng các thông tin này để làm các cuộc khảo sát, đánh giá về các chương trình khuyến mãi, sự kiện cho sản phẩm. Ngoài ra chúng tôi sẽ không cung cấp thông tin cho bên thứ 3 nếu không nhận được sự cho phép của các bạn.</p>
 
-<p>- Ch&uacute;ng t&ocirc;i thỉ đưa ra c&aacute;c th&ocirc;ng tin c&aacute; nh&acirc;n, địa chỉ IP cho người d&ugrave;ng khi luật ph&aacute;p Việt Nam y&ecirc;u cầu để giải quyết c&aacute;c việc thực sự cần thiết.</p>
+<p>- Chúng tôi thỉ đưa ra các thông tin cá nhân, địa chỉ IP cho người dùng khi luật pháp Việt Nam yêu cầu để giải quyết các việc thực sự cần thiết.</p>
 
-<p>- Ch&uacute;ng t&ocirc;i chỉ chịu tr&aacute;ch nhiệm với th&ocirc;ng tin đang được giữ k&iacute;n do ch&uacute;ng th&ocirc;i l&agrave; b&ecirc;n duy nhất. Nếu c&oacute; b&ecirc;n thứ 3, việc bảo mật th&ocirc;ng tin nằm ngo&agrave;i khả năng của ch&uacute;ng t&ocirc;i.</p>
+<p>- Chúng tôi chỉ chịu trách nhiệm với thông tin đang được giữ kín do chúng thôi là bên duy nhất. Nếu có bên thứ 3, việc bảo mật thông tin nằm ngoài khả năng của chúng tôi.</p>
 
-<p><strong>III. LUẬT &Aacute;P DỤNG</strong></p>
+<p><strong>III. LUẬT ÁP DỤNG</strong></p>
 
-<p>Quy định tr&ecirc;n đ&acirc;y được thực thi theo ph&aacute;p luật của nước Cộng h&ograve;a X&atilde; hội Chủ nghĩa Việt Nam. Khi sử dụng dịch vụ của ch&uacute;ng t&ocirc;i, bạn đ&atilde; mặc nhi&ecirc;n chấp nhận c&aacute;c điều khoản trong văn bản Quy định n&agrave;y. Ch&uacute;ng t&ocirc;i hoạt động ho&agrave;n to&agrave;n trong khu&ocirc;n khổ ph&aacute;p luật Việt Nam v&agrave; cam kết tu&acirc;n thủ ph&aacute;p luật Việt Nam. C&aacute;c điều khoản tr&ecirc;n l&agrave; ph&ugrave; hợp với luật ph&aacute;p Việt Nam v&agrave; đảm bảo quyền lợi cao nhất cho người sử dụng dịch vụ của Gamevh.net.</p>
+<p>Quy định trên đây được thực thi theo pháp luật của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam. Khi sử dụng dịch vụ của chúng tôi, bạn đã mặc nhiên chấp nhận các điều khoản trong văn bản Quy định này. Chúng tôi hoạt động hoàn toàn trong khuôn khổ pháp luật Việt Nam và cam kết tuân thủ pháp luật Việt Nam. Các điều khoản trên là phù hợp với luật pháp Việt Nam và đảm bảo quyền lợi cao nhất cho người sử dụng dịch vụ của Gamevh.net.</p>
 
-<p><strong>Tr&acirc;n trọng.</strong></p>
+<p><strong>Trân trọng.</strong></p>
 
 <p>&nbsp;</p></span>
 
 </div>
-<script src="//cdn.gamevh.net/domain/vh/module/jqshare/jquery.share.js" type="text/javascript"></script>
-<link rel="stylesheet" href="//cdn.gamevh.net/domain/vh/module/jqshare/jquery.share.css" type="text/css">
-<script type="text/javascript">
-	fs_addLoadEvent(function ()
-	{
-	    $('#sharebox').share({
-	        networks: ['facebook','googleplus','twitter','pinterest'],
-	        theme: 'square'
-	    });
-	});
-</script>
-<div id="sharebox" class="addthis_toolbox addthis_default_style addthis_32x32_style"></div>
 
-<div class="fb-comments fb_iframe_widget" data-href="http://gamevh.net/news/831" data-num-posts="10" publish_feed="true"
-	data-width="100%" fb-xfbml-state="rendered" data-order-by="reverse_time"></div>
-<div id="fb-root"></div>
-<script>
-	(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&appId=318703868599310&version=v2.6";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-</script>
+
+
+
+
+
+
+
 		</div>
 	</div>
 </div>
 
 </div>
-</div></div></div></div><div id="footer_wrap"><div id="footer">
-<div id="pos_footer" class="position">
-
-<div class="module" >	<div class="module_content" id="module_pos_footer_127">
+</div></div></div></div>
 
 
+	
+	
 
-<div id="article_similar">
-	<div class="caption">Tin liên quan</div>
-	<div class="content">
-		<ul>
-
-			<li>
-				<a href="/news/6895">01/04: Khuyến Mãi Ngày Vàng, Tưng Bừng Giải Trí</a>
-			</li>
-
-			<li>
-				<a href="/news/6894">28/03: Khuyến Mãi Ngày Vàng, Tưng Bừng Giải Trí</a>
-			</li>
-
-			<li>
-				<a href="/news/6875">25/03: Khuyến Mãi Ngày Vàng, Tưng Bừng Giải Trí</a>
-			</li>
-
-			<li>
-				<a href="/news/3909">Tổng kết sự kiện game Chắn: Chia sẻ cước ù to nhất - nhận ngay xu khủng</a>
-			</li>
-
-			<li>
-				<a href="/news/3888">Sự kiện game Chắn: Chia sẻ cước ù to nhất - nhận ngay xu khủng</a>
-			</li>
-
-			<li>
-				<a href="/news/3853">Tổng kết giải cờ úp Xuân Bính Thân 2016</a>
-			</li>
-
-			<li>
-				<a href="/news/3851">Cập nhật kết quả trận bán kết giải cờ úp Xuân Bính Thân 2016 ngày 25/3</a>
-			</li>
-
-			<li>
-				<a href="/news/3850">Cập nhật kết quả giải cờ úp Xuân Bính Thân 2016 ngày 24/03</a>
-			</li>
-
-		</ul>
-	</div>
-</div>
-	</div>
-</div>
-</div>
-</div></div>
-
-
-	<script type="text/javascript">
-		fs_addLoadEvent(function()
-		{
-			window.fs_loaded = true;
-		});
-	</script>
-	</body>
-</html>
+</body></html>
